@@ -1,0 +1,11 @@
+2026-03-05T01:42:14.601+03:00  INFO 67361 --- [App] [main] ru.netolgy.app.AppApplication            : Starting AppApplication using Java 25.0.1 with PID 67361 (/Users/andysh/IdeaProjects/netology/hw-elk-spring/target/classes started by andysh in /Users/andysh/IdeaProjects/netology/hw-elk-spring)
+2026-03-05T01:42:14.603+03:00  INFO 67361 --- [App] [main] ru.netolgy.app.AppApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-03-05T01:42:15.234+03:00  INFO 67361 --- [App] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-05T01:42:15.242+03:00  INFO 67361 --- [App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-05T01:42:15.242+03:00  INFO 67361 --- [App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-05T01:42:15.265+03:00  INFO 67361 --- [App] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 608 ms
+2026-03-05T01:42:15.601+03:00  INFO 67361 --- [App] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-05T01:42:15.635+03:00  INFO 67361 --- [App] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-05T01:42:15.640+03:00  INFO 67361 --- [App] [main] ru.netolgy.app.AppApplication            : Started AppApplication in 1.419 seconds (process running for 1.626)
+2026-03-05T01:45:31.063+03:00  INFO 67361 --- [App] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05T01:45:31.071+03:00  INFO 67361 --- [App] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
